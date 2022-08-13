@@ -1,0 +1,106 @@
+<!--  파일명: dooruser.ejs
+      파일설명: 도어락 사용자 관리 화면
+      개발자: 신예나
+      개발일: 2020.12. -->
+
+<script>
+function addCheck() {
+  if (!($("#uid").val())){
+    alert("추가할 아이디를 입력하시오");
+    return false;
+  }
+  return true;
+}
+function removeCheck() {
+  if ($("input:checkbox[name='delete']").is(":checked") == false ){
+    alert("삭제할 사용자를 선택하시오");
+    return;
+  }
+  else {
+    if (confirm("정말 삭제하시겠습니까?") == true) {
+      document.dooruserdeleteform.submit();
+    }
+    else {
+      return;
+    }
+  }
+}
+</script>
+<content>
+    <div>
+        <img src="/images/banner.jpg" alt="banner" width="100%" height="250px">
+    </div>
+    <div class="container-fluid">
+        <ul class="breadcrumb mt-3">
+            <li class="breadcrumb-item">가천도어락</li>
+            <li class="breadcrumb-item"><a href="/web/admindoor">도어락 관리</a></li>
+            <li class="breadcrumb-item active"><%=serialno%></li>
+        </ul>
+
+    </div>
+    <div class="container">
+        <form onsubmit="return addCheck()" method="post" name="dooruserinsertform" action="/web/dooruser">
+          <input type="hidden" name="serialno" value="<%=serialno%>">
+          <div class="input-group mb-3">
+              <input type="text" class="form-control" id="uid" name="uid" placeholder="추가할 사용자 아이디를 입력하시오.">
+              <div class="input-group-append">
+                  <input type="submit" class="input-group-text" value="추가">
+              </div>
+          </div>
+        </form>
+        <form method="post" name="dooruserdeleteform" action="/web/dooruser/?_method=delete">
+            <input type="hidden" name="serialno" value="<%=serialno%>">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th><a href="#" onclick="removeCheck()">삭제</a></th>
+                        <th>사용자 구분</th>
+                        <th>사용자 아이디</th>
+                        <th>사용자 이름</th>
+                        <th>사용자 등록일시</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% userdata.forEach(function (item, index) { %>
+                    <tr>
+                        <% if (item.usertype == "main") { %>
+                        <td></td>
+                        <% } else { %>
+                        <td><input type="checkbox" name="delete" value="<%=item.uid%>"></td>
+                        <% } %>
+                        <% if (item.usertype == "main") { %>
+                        <td>주사용자</td>
+                        <% } else { %>
+                        <td>부사용자</td>
+                        <% } %>
+                        <td><%=item.uid%></td>
+                        <td><%=item.name%></td>
+                        <td><%=item.reg_date.toLocaleString();%></td>
+                    </tr>
+                    <% }); %>
+            </table>
+        </form>
+
+        <ul class="pagination justify-content-center">
+            <% if (page == 1) { %>
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <% } else { %>
+            <li class="page-item"><a class="page-link" href="/web/dooruser/?page=<%=Number(page)-1%>&serialno=<%=serialno%>">Previous</a></li>
+            <% } %>
+
+            <% for (i=1; i<=totalPages; i++) { %>
+            <% if (i==page) { %>
+            <li class="page-item active"><a class="page-link" href="/web/dooruser/?page=<%=i%>&serialno=<%=serialno%>"><%=i%></a></li>
+            <% } else { %>
+            <li class="page-item"><a class="page-link" href="/web/dooruser/?page=<%=i%>&serialno=<%=serialno%>"><%=i%></a></li>
+            <% } %>
+            <% } %>
+
+            <% if (page == totalPages) { %>
+            <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+            <% } else { %>
+            <li class="page-item"><a class="page-link" href="/web/dooruser/?page=<%=Number(page)+1%>&serialno=<%=serialno%>">Next</a></li>
+            <% } %>
+        </ul>
+    </div>
+</content>

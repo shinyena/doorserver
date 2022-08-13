@@ -1,0 +1,62 @@
+<!--  파일명: controllog.ejs
+      파일설명: 제어내역 열람 화면
+      개발자: 신예나
+      개발일: 2020.12. -->
+
+<content>
+    <div>
+        <img src="/images/banner.jpg" alt="banner" width="100%" height="250px">
+    </div>
+    <div class="container-fluid">
+        <ul class="breadcrumb mt-3">
+            <li class="breadcrumb-item">가천도어락</li>
+            <li class="breadcrumb-item active">제어 모니터링</li>
+        </ul>
+
+    </div>
+    <div class="container">
+        <form>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>시리얼 넘버</th>
+                        <th>사용자 아이디</th>
+                        <th>내용</th>
+                        <th>제어 일시</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% logdata.forEach(function (item, index) { %>
+                    <tr>
+                        <td><%=item.serialno%></td>
+                        <td><%=item.uid%></td>
+                        <td><%=item.details%></td>
+                        <td><%=item.use_date.toLocaleString();%></td>
+                    </tr>
+                    <% }); %>
+            </table>
+        </form>
+
+        <ul class="pagination justify-content-center">
+            <% if (page == 1) { %>
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <% } else { %>
+            <li class="page-item"><a class="page-link" href="/web/controllog/?page=<%=Number(page)-1%>">Previous</a></li>
+            <% } %>
+
+            <% for (i=1; i<=totalPages; i++) { %>
+            <% if (i==page) { %>
+            <li class="page-item active"><a class="page-link" href="/web/controllog/?page=<%=i%>"><%=i%></a></li>
+            <% } else { %>
+            <li class="page-item"><a class="page-link" href="/web/controllog/?page=<%=i%>"><%=i%></a></li>
+            <% } %>
+            <% } %>
+
+            <% if (page == totalPages) { %>
+            <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+            <% } else { %>
+            <li class="page-item"><a class="page-link" href="/web/controllog/?page=<%=Number(page)+1%>">Next</a></li>
+            <% } %>
+        </ul>
+    </div>
+</content>

@@ -1,0 +1,739 @@
+{
+  now: '2022. 8. 12. 오후 4:55:25',
+  who: 'PrintLogin()',
+  modulename: '로그인 화면 출력',
+  code: 200,
+  message: '',
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:56:06',
+  who: 'PrintLogin()',
+  modulename: '로그인 화면 출력',
+  code: 200,
+  message: '',
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:56:06',
+  who: 'HandleLogin()',
+  modulename: '로그인 성공',
+  code: 200,
+  message: undefined,
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:56:06',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:56:06',
+  who: 'PrintControlLog()',
+  modulename: '도어락 제어내역 열람 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:56:06',
+  who: 'PrintErrorAppLog()',
+  modulename: '모바일 앱 장애 내역 출력 ',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:56:06',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:56:06',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:58:52',
+  who: 'PrintAdminUser()',
+  modulename: '권한없는 접근',
+  code: 464,
+  message: '로그인을 하지 않아 해당기능을 이용할 수 없습니다.',
+  level: 'error',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:58:52',
+  who: 'PrintLogin()',
+  modulename: '로그인 화면 출력',
+  code: 200,
+  message: '',
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:58:52',
+  who: 'HandleLogin()',
+  modulename: '로그인 성공',
+  code: 200,
+  message: undefined,
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:58:52',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:59:19',
+  who: 'PrintAdminUser()',
+  modulename: '권한없는 접근',
+  code: 464,
+  message: '로그인을 하지 않아 해당기능을 이용할 수 없습니다.',
+  level: 'error',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:59:19',
+  who: 'PrintLogin()',
+  modulename: '로그인 화면 출력',
+  code: 200,
+  message: '',
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:59:19',
+  who: 'HandleLogin()',
+  modulename: '로그인 성공',
+  code: 200,
+  message: undefined,
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:59:19',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:59:19',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:59:19',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:59:19',
+  who: 'PrintControlLog()',
+  modulename: '도어락 제어내역 열람 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 4:59:19',
+  who: 'PrintErrorAppLog()',
+  modulename: '모바일 앱 장애 내역 출력 ',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:34',
+  who: 'PrintErrorAppLog()',
+  modulename: '권한없는 접근',
+  code: 464,
+  message: '로그인을 하지 않아 해당기능을 이용할 수 없습니다.',
+  level: 'error',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:34',
+  who: 'PrintLogin()',
+  modulename: '로그인 화면 출력',
+  code: 200,
+  message: '',
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:34',
+  who: 'HandleLogin()',
+  modulename: '로그인 성공',
+  code: 200,
+  message: undefined,
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:34',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:34',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'PrintAdminUser()',
+  modulename: '권한없는 접근',
+  code: 464,
+  message: '로그인을 하지 않아 해당기능을 이용할 수 없습니다.',
+  level: 'error',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'PrintLogin()',
+  modulename: '로그인 화면 출력',
+  code: 200,
+  message: '',
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'HandleLogin()',
+  modulename: '로그인 성공',
+  code: 200,
+  message: undefined,
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'PrintControlLog()',
+  modulename: '도어락 제어내역 열람 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'PrintErrorAppLog()',
+  modulename: '모바일 앱 장애 내역 출력 ',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:00:59',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminDoor()',
+  modulename: '권한없는 접근',
+  code: 464,
+  message: '로그인을 하지 않아 해당기능을 이용할 수 없습니다.',
+  level: 'error',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintLogin()',
+  modulename: '로그인 화면 출력',
+  code: 200,
+  message: '',
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'HandleLogin()',
+  modulename: '로그인 성공',
+  code: 200,
+  message: undefined,
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintControlLog()',
+  modulename: '도어락 제어내역 열람 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintErrorAppLog()',
+  modulename: '모바일 앱 장애 내역 출력 ',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintControlLog()',
+  modulename: '도어락 제어내역 열람 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintControlLog()',
+  modulename: '도어락 제어내역 열람 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: 1012345678,
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      serialno: 'AASSDD',
+      uid: 'admin',
+      name: '우리집',
+      active: 1,
+      reg_date: 2022-08-12T08:05:12.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      serialno: 'AASSDD',
+      uid: 'admin',
+      name: '우리집',
+      active: 1,
+      reg_date: 2022-08-12T08:05:12.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintDoorUser()',
+  modulename: '도어락 사용자 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'yena@gachon.ac.kr',
+      pass: '1234',
+      name: '신예나',
+      phone: '01012334567',
+      reg_date: 2022-08-12T08:05:56.000Z,
+      version: 1,
+      del: 0
+    },
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: '01012345678',
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminUser()',
+  modulename: '사용자 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'yena@gachon.ac.kr',
+      pass: '1234',
+      name: '신예나',
+      phone: '01012334567',
+      reg_date: 2022-08-12T08:05:56.000Z,
+      version: 1,
+      del: 0
+    },
+    RowDataPacket {
+      uid: 'admin',
+      pass: '1234',
+      name: '관리자',
+      phone: '01012345678',
+      reg_date: 2022-08-11T06:11:50.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintAdminDoor()',
+  modulename: '도어락 관리 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      serialno: 'AASSDD',
+      uid: 'admin',
+      name: '우리집',
+      active: 1,
+      reg_date: 2022-08-12T08:05:12.000Z,
+      version: 1,
+      del: 0
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintDoorUser()',
+  modulename: '도어락 사용자 화면 출력',
+  code: 200,
+  message: [],
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'AddDoorUser()',
+  modulename: '도어락 사용자 추가 성공',
+  code: 200,
+  message: [Object: null prototype] {
+    serialno: 'AASSDD',
+    uid: 'yena@gachon.ac.kr'
+  },
+  level: 'info',
+  label: '출입관제 웹서버'
+}
+{
+  now: '2022. 8. 12. 오후 5:02:59',
+  who: 'PrintDoorUser()',
+  modulename: '도어락 사용자 화면 출력',
+  code: 200,
+  message: [
+    RowDataPacket {
+      uid: 'yena@gachon.ac.kr',
+      name: '신예나',
+      usertype: 'sub',
+      reg_date: 2022-08-12T08:07:43.000Z
+    }
+  ],
+  level: 'info',
+  label: '출입관제 웹서버'
+}

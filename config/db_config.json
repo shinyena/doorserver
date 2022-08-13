@@ -1,0 +1,7 @@
+{
+  "host": "database-1.cn8dpqyhdvpd.ap-northeast-2.rds.amazonaws.com",
+  "port": 3306,
+  "user": "yena5790",
+  "password": "yena1998",
+  "database": "doorlock"
+}

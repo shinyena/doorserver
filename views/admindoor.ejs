@@ -1,0 +1,86 @@
+<!--  파일명: admindoor.ejs
+      파일설명: 도어락 관리 화면
+      개발자: 신예나
+      개발일: 2020.12. -->
+
+<script>
+function removeCheck() {
+  if ($("input:checkbox[name='delete']").is(":checked") == false ){
+    alert("삭제할 도어락을 선택하시오");
+    return;
+  }
+  else {
+    if (confirm("정말 삭제하시겠습니까?") == true) {
+      document.admindoorform.submit();
+    }
+    else {
+      return;
+    }
+  }
+}
+</script>
+<content>
+    <div>
+        <img src="/images/banner.jpg" alt="banner" width="100%" height="250px">
+    </div>
+    <div class="container-fluid">
+        <ul class="breadcrumb mt-3">
+            <li class="breadcrumb-item">가천도어락</li>
+            <li class="breadcrumb-item active">도어락 관리</li>
+        </ul>
+
+    </div>
+    <div class="container">
+        <form method="post" name="admindoorform" action="/web/admindoor/?_method=delete">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th><a href="#" onclick="removeCheck()">삭제</a></th>
+                        <th>시리얼 넘버</th>
+                        <th>도어락 이름</th>
+                        <th>도어락 등록일시</th>
+                        <th>도어락 관리자</th>
+                        <th>활성화 상태</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% doordata.forEach(function (item, index) { %>
+                    <tr>
+                        <td><input type="checkbox" name="delete" value="<%=item.serialno%>"></td>
+                        <td><a href="/web/dooruser/?serialno=<%=item.serialno%>"><%=item.serialno%></a></td>
+                        <td><%=item.name%></td>
+                        <td><%=item.reg_date.toLocaleString();%></td>
+                        <td><%=item.uid%></td>
+                        <% if (item.active==1) { %>
+                        <td><a href="/web/inactivedoor/?serialno=<%=item.serialno%>">활성화</a></td>
+                        <% } else{ %>
+                        <td><a href="/web/activedoor/?serialno=<%=item.serialno%>">비활성화</a></td>
+                        <% } %>
+                    </tr>
+                    <% });%>
+            </table>
+        </form>
+
+        <ul class="pagination justify-content-center">
+            <% if (page == 1) { %>
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <% } else { %>
+            <li class="page-item"><a class="page-link" href="/web/admindoor/?page=<%=Number(page)-1%>">Previous</a></li>
+            <% } %>
+
+            <% for (i=1; i<=totalPages; i++) { %>
+            <% if (i==page) { %>
+            <li class="page-item active"><a class="page-link" href="/web/admindoor/?page=<%=i%>"><%=i%></a></li>
+            <% } else { %>
+            <li class="page-item"><a class="page-link" href="/web/admindoor/?page=<%=i%>"><%=i%></a></li>
+            <% } %>
+            <% } %>
+
+            <% if (page == totalPages) { %>
+            <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+            <% } else { %>
+            <li class="page-item"><a class="page-link" href="/web/admindoor/?page=<%=Number(page)+1%>">Next</a></li>
+            <% } %>
+        </ul>
+    </div>
+</content>
