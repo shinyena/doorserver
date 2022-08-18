@@ -13,6 +13,7 @@ const   bodyParser = require('body-parser');
 const   createError = require('http-errors');
 const   path = require('path');
 const   app = express();
+const   ip = require('ip');
 //const   FileStore = require('session-file-store')(session);
 
 const   PORT = 8080;
@@ -38,5 +39,5 @@ app.use('/app', appserver);
 app.use('/web', webserver);
 
 app.listen(PORT, function () {
-  console.log('서버실행');
+  console.log(ip.address() + ':' + PORT + ' 서버실행');
 });

@@ -1,6 +1,6 @@
 # 출입관제 서버
-- [출입관제 모바일 앱](../app) 서버: [app.js](doorlock/routes/app.js)
-- [관리자 모니터링 웹](doorlock/view) 서버: [web.js](doorlock/routes/web.js)
+- [출입관제 모바일 앱](https://github.com/shinyena/doorapp) 서버: [app.js](routes/app.js)
+- [관리자 모니터링 웹](views) 서버: [web.js](routes/web.js)
 
 ## api 목록
 - 출입관제 모바일 앱 api
