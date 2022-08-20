@@ -8,7 +8,7 @@
 ### 구현 화면
 |||
 |:---:|:---:|
-|![](readmeImg/login.png)|![](readmeImg/adminmod.png)|
+|<img src="readmeImg/login.png" width="400">|<img src="readmeImg/adminmod.png" width="400">|
 |로그인 화면|관리자 정보변경 화면|
-|![](readmeImg/admindoor.png)|![](readmeImg/userdoor.png)|
+|<img src="readmeImg/admindoor.png" width="400">|<img src="readmeImg/userdoor.png" width="400">|
 |도어락 관리 화면|도어락 사용자 관리 화면|
